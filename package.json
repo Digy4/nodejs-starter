@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-starter",
+  "version": "0.0.1",
+  "description": "Nodejs starter to test Digy4 integration",
+  "author": "Digy4",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "reporter",
+    "custom"
+  ],
+  "scripts": {
+    "test": "node --test --test-reporter @digy4/digyrunner-nodejs/DigyRunnerNodejsReporter"
+  },
+  "dependencies": {
+    "@digy4/digyrunner-nodejs": "^0.0.7"
+  }
+}

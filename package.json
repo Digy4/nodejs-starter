@@ -10,9 +10,9 @@
     "custom"
   ],
   "scripts": {
-    "test": "node --test --test-reporter @digy4/digyrunner-nodejs/DigyRunnerNodejsReporter"
+    "test": "node --test --test-reporter=spec --test-reporter=@digy4/digyrunner-nodejs/DigyRunnerNodejsReporter --test-reporter-destination=stdout --test-reporter-destination=digy4.reporter.txt"
   },
   "dependencies": {
-    "@digy4/digyrunner-nodejs": "^0.0.7"
+    "@digy4/digyrunner-nodejs": "^0.0.8"
   }
 }
